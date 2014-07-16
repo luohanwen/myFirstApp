@@ -10,3 +10,13 @@ myFirstApp
 
 三、项目进度记录
 jingle原始版本 2014.07.16
+
+四、目录结构说明
+
+   www
+      js
+         app ---项目页面js
+         base ---公共js
+         components ---各种组件
+         core --- 核心js
+      index.js ---入口文件
