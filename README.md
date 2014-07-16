@@ -20,4 +20,3 @@ jingle原始版本 2014.07.16
          components ---各种组件
          core --- 核心js
       index.js ---入口文件
-      111
