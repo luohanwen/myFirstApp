@@ -9,3 +9,4 @@ myFirstApp
 前端ui框架采用jingle，结合移动应用的一些新兴技术如：require.js , arttemplate , backbone.js，phonegap等完成移动混合型应用app
 
 三、项目进度记录
+jingle原始版本 2014.07.16
