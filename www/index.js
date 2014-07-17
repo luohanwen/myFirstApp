@@ -15,10 +15,6 @@ require.config({
 		zepto: {
 			exports: '$'
 		},
-		touch2mouse: {
-			deps: ['zepto'],
-			exports: 'touch2mouse'
-		},
 		iscroll: {
 			exports: 'iScroll'
 		},
@@ -26,25 +22,12 @@ require.config({
 			exports: 'Temp'
 		},
 		jingle: {
-			deps: ['zepto','touch2mouse'],
+			deps: ['zepto', 'touch2mouse'],
 			exports: 'J'
 		}
 	}
 });
-define(['zepto', 'touch2mouse', 'iscroll', 'template', 'jingle'], function($, touch2mouse, iScroll, Temp, J) {
-	console.info(1); 
-	console.info($);
-	console.info(2);
-	console.info(touch2mouse);
-	console.info(3);
-	console.info(iScroll);
-	console.info(4);
-	console.info(Temp);
-	console.info(5);
-	console.info(J);
-
-
-	
+define(['zepto', 'iscroll', 'template', 'jingle'], function($, iScroll, Temp, J) {
 	var App = (function() {
 		var pages = {};
 		var run = function() {
